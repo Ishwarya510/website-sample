@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+}
+.nav1 nav{
+    flex: 1;
+    text-align: center;
+}
+.nav1 nav ul{
+    display: inline;
+    justify-content: center;
+    list-style-type: none;
+}
+.nav1 nav ul li{
+    display: inline;
+    justify-content: center;
+    margin-right: 40px;
+}
+.nav1 nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.cont{
+  background-color: rgb(202, 178, 178);
+  max-width: 100%;
+  min-height: 700px;
+}
+
+.box{
+  position: absolute;
+    width: 900px;
+    margin-top: 100px;
+    margin-left: 320px;
+    
+    background-color: honeydew;
+    height: 500px;
+}
+.cont2{
+    margin: 40px;
+    padding: 20px;
+ 
+}
+.fun{
+    position: absolute;
+    z-index: 3;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+.img1{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 300px;
+    z-index: 2;
+}
+.box2{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 400px;
+    height: 650px;
+    background-color: rgb(169, 248, 169);
+    z-index: -1;
+}
+.fact{
+    position: absolute;
+    margin-top: 120px;
+    z-index: 1;
+    width: 200px;
+    height: 700px;
+    margin-left:800px ;
+}
+.bio{
+   
+    background-color: rgb(206, 187, 196);
+    max-width: 100%;
+    min-height: 650px;
+}
+.img2{
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 20px;
+}
+.about{
+    position: absolute;
+    width: 800px;
+    margin: 40px;
+
+}
+footer{
+    margin-top: 800px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 30px;
+}
